@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>-Golpizza-</title>
+  </head>
+  <body>
+    <h1>Formulario de pedido</h1>
+    <form>
+      <p>
+        <label for="nombre">Nombre de cliente:</label>
+        <input type="text" name="nombre" id="nombre" />
+      </p>
+
+      <p>
+        <label for="telefono">Número de teléfono:</label>
+        <input type="texl" name="telefono" id="telefono" />
+      </p>
+
+      <fieldset>
+        <legend>Tamano de la pizza</legend>
+        <p>
+          <label><input type="radio" name="size" />Personal</label>
+        </p>
+
+        <p>
+          <label><input type="radio" name="size" />Mediana</label>
+        </p>
+
+        <p>
+          <label><input type="radio" name="size" />Familiar</label>
+        </p>
+        <br />
+
+        <legend>Ingredientes Extras</legend>
+        <p>
+          <label><input type="checkbox" />Aceitunas</label>
+        </p>
+
+        <p>
+          <label><input type="checkbox" />Champiñones</label>
+        </p>
+
+        <p>
+          <label><input type="checkbox" />Tocino</label>
+        </p>
+
+        <p>
+          <label><input type="checkbox" />Queso</label>
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Fecha y hora de entrega</legend>
+
+        <p><label>Fecha de entrega:</label><input type="date" /></p>
+
+        <p><label>Seleccione hora de entrega:</label><input type="time" /></p>
+      </fieldset>
+
+      <p>
+        <label>Instrucciones para entrega:</label>
+        <textarea cols="25" rows="2"></textarea>
+
+        <br />
+        <br />
+
+        <button>Confirmar pedido</button>
+      </p>
+    </form>
+  </body>
+</html>
